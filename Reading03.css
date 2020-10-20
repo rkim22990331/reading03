@@ -1,0 +1,151 @@
+
+
+body {
+
+  font-family: 'Lora';
+}
+
+#life {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 200 px
+  height: 200px;
+  float:left;
+  background size:100%;
+
+}
+.Life{
+  content:attr(data-text);
+}
+.typewrite{
+  position: fixed;
+  color: white;
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 40%;
+  line-height: 150%;
+  padding: 0px 20px 0px 20px;
+  font-size: 35px;
+  font-family: 'Lora';
+}
+
+.overlay{
+
+  position:absolute;
+    top:0;
+    left:0;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lora';
+    line-height: 130%;
+}
+
+/*.container{
+  background color: white;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.button{
+  text-decoration: none;
+  font-size:0.875rem;
+  font-weight: 599;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 1.5rem;
+  background-color: white;
+  color: black;
+  padding: 1rem 2rem;
+}
+.pop-inner{
+  position:relative;
+  bottom:-100vw;
+  right: -100vh;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  max-height: 599px;
+  width: 59%;
+  height: 80%;
+  background-color:white;
+  transform: rotate(32deg);
+  transition: 0.74s ease-in-out;
+}
+/*.line-1{
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    transform: translateY(-50%);
+    font-family: 'Lora';
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+
+}
+
+/*.overlay{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+ /*.text{
+   overflow: hidden;
+   position relative;
+   width: 18em;
+   border-right: 2px;
+   white-space: nowrap;
+ border-right: 2px solid rgba(255,255,255,.75);
+   animation: typewriter 4s steps(44) 1s 1 normal both,
+              blinkTextCursor 400ms steps(44) normal
+ }
+
+@keyframes typewriter{
+   from{
+     width: 0;
+   }
+
+   to{
+     width: 18em;
+   }
+ }
+
+@keyframes blinkTextCursor {
+
+from{border-right-color: rgba(255,255,255,.75);
+  }
+
+  to{
+    border-right-color: transparent;
+  }
+}
